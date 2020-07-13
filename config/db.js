@@ -10,7 +10,7 @@ const connectionDB = async () => {
             useUnifiedTopology: true,
             useFindAndModify: false
        });
-    //    console.log('Se ha conectado correctamente..');
+       console.log('Se ha conectado correctamente..');
     }catch(error){
        console.log(error);
        process.exit(1);
