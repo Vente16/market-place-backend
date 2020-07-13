@@ -42,6 +42,9 @@ https://glacial-crag-03579.herokuapp.com/api/product/word/{word}
 https://glacial-crag-03579.herokuapp.com/api/product/{id}
 ```
 
+## Recomentations
+
+If you want to run the project locally, change the path to http://localhost: 5000 and use these same endopinds
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
