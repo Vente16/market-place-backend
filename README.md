@@ -16,13 +16,32 @@ dowloand the proyect [proyect](https://github.com/Vente16/market-place-backend.g
 
 Use a client to make get requests to the following urls
 
-```python
-import foobar
+- List of products
 
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
 ```
+https://glacial-crag-03579.herokuapp.com/api/products
+```
+
+- Products by categories
+  Categories:
+  * Car,
+  * Kitchen
+  * Clothes
+  * Technology
+```
+https://glacial-crag-03579.herokuapp.com/api/products/category/{category}
+```
+
+- Search products by names
+```
+https://glacial-crag-03579.herokuapp.com/api/product/word/{word}
+```
+
+- Get product by id
+```
+https://glacial-crag-03579.herokuapp.com/api/product/{id}
+```
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
